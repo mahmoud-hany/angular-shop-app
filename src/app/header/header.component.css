@@ -1,6 +1,6 @@
-.dropdown:hover .dropdown-menu {
+/* .dropdown:hover .dropdown-menu {
     display: block;
-}
+} */
 .dropdown .dropdown-menu a:hover{
     color: #007bff
 }

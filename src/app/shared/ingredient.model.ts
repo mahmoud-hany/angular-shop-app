@@ -8,7 +8,7 @@
 //     }
 // }
 
-// This is alias [Shortcut] to the above 
+// This is alias [Shortcut] to the above
 export class Ingredient {
     constructor(public name: string, public amount: number){}
 }

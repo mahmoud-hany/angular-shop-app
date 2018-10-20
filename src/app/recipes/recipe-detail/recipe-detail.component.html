@@ -1,7 +1,7 @@
 <div class="pl-5">
     <div class="row">
         <div class="col-xs-12">
-          <img src="https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2016/09/frying-pan-pizza.jpg" class="img-fluid" alt="Responsive image">
+          <img [src]="44" class="img-fluid" alt="{{ recipe.name }}">
         </div>
       </div>
       
@@ -15,7 +15,7 @@
               Manage Recipe
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">To Shoping List</a>
+              <a class="dropdown-item" href="#">To Shopping List</a>
               <a class="dropdown-item" href="#">Edit Recipe</a>
               <a class="dropdown-item" href="#">Delete Recipe</a>
             </div>
@@ -27,10 +27,7 @@
       <div class="row">
         <div class="col-xs-12">
           <h5 class="mt-3">Description</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Praesentium, maiores libero saepe aperiam voluptatem reprehenderit, 
-            pudiandae cimus reiciendis ipsam a quod 
-            obcaecati labore temporibus. Distinctio, tenetur!</p>
+          <p>{{ recipe.description }}</p>
 
           <h5 class="mt-3">Ingrediants</h5>
           <ul>
